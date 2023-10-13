@@ -1,0 +1,42 @@
+.img-card {
+    position: relative;
+}
+
+.img-card::before {
+    content: "";
+    background: linear-gradient(90.21deg, #36a4aa -5.91%, #056cd4 111.58%);
+    opacity: 0.85;
+    position: absolute;
+    width: 84%;
+    height: 0%;
+    transition: 0.4s ease-in-out;
+}
+
+.img-card:hover::before {
+    height: 100%;
+}
+
+.text-card {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    top: 65%;
+    left: 51%;
+
+}
+
+.img-card:hover .text-card {
+    top: 50%;
+    opacity: 1;
+}
+
+@media(max-width: 400px) {
+    .text-card h1 {
+        display: none;
+    }
+
+
+}

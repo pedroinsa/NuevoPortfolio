@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background: rgb(9, 14, 25);
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+body {
+  padding: 0px;
+  background: rgb(9, 14, 25);
+
+}
+
+.background {
+  background: rgb(9, 14, 25);
+}
+
+
+/* background-color: rgb(9, 14, 25); */
