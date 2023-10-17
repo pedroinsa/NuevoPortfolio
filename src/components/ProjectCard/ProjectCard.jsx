@@ -2,7 +2,7 @@ import React from 'react'
 import { SiJavascript, SiHtml5, SiCss3, SiReact, SiRedux, SiSequelize, SiExpress, SiPostgresql, SiTypescript, SiTailwindcss, SiBootstrap, SiGithub } from "react-icons/si"
 import './ProjectCard.css'
 import { BsDisplay } from 'react-icons/bs'
- 
+
 
 function ProjectCard({ name, image, demo, github, text, javascript, css, html, react, redux, sequelize, express, postgres,
     typescript, tailwind, bootstrap }) {
@@ -36,8 +36,8 @@ function ProjectCard({ name, image, demo, github, text, javascript, css, html, r
                 </div>
             </div>
             <div className='mt-2 mr-12'>
-                {demo ? <a className='mr-2' href='https://www.google.com.ar/'><button className='bg-blue-500 border border-white text-white rounded p-1'><BsDisplay/></button></a> : null}
-                <a href={github}> <button className='bg-blue-500 text-white rounded border border-white p-1'><SiGithub/></button></a>
+                {demo ? <a className='mr-2' href={demo}><button className='bg-blue-500 border border-white text-white rounded p-1'><BsDisplay /></button></a> : null}
+                <a href={github}> <button className='bg-blue-500 text-white rounded border border-white p-1'><SiGithub /></button></a>
             </div>
         </div>
     )
