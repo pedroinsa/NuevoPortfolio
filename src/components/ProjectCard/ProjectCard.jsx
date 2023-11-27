@@ -1,11 +1,11 @@
 import React from 'react'
-import { SiJavascript, SiHtml5, SiCss3, SiReact, SiRedux, SiSequelize, SiExpress, SiPostgresql, SiTypescript, SiTailwindcss, SiBootstrap, SiGithub } from "react-icons/si"
+import { SiJavascript, SiHtml5, SiCss3, SiReact, SiRedux, SiSequelize, SiExpress, SiPostgresql, SiTypescript, SiTailwindcss, SiBootstrap, SiGithub, SiAngular } from "react-icons/si"
 import './ProjectCard.css'
 import { BsDisplay } from 'react-icons/bs'
 
 
 function ProjectCard({ name, image, demo, github, text, javascript, css, html, react, redux, sequelize, express, postgres,
-    typescript, tailwind, bootstrap }) {
+    typescript, tailwind, bootstrap, angular }) {
     return (
         <div className='flex flex-col items-center border-blue-500 border-2 pl-5 m-2 shadow-blue-500 shadow-xl hover:scale-110'>
 
@@ -21,6 +21,7 @@ function ProjectCard({ name, image, demo, github, text, javascript, css, html, r
                         {html && <div> <SiHtml5 /> </div>}
                         {css && <div> <SiCss3 /> </div>}
                         {react && <div> <SiReact /> </div>}
+                        {angular && <div> <SiAngular/></div>}
                         {tailwind && <div> <SiTailwindcss /> </div>}
                         {bootstrap && <div> <SiBootstrap /> </div>}
                         {redux && <div> <SiRedux /> </div>}
