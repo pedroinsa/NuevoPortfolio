@@ -51,11 +51,11 @@ export default function Contact() {
                 <h2 className="text-white text-3xl mt-10">Contacto por <span className='text-blue-500'>mail</span></h2>
                 <div className='w-full mt-11'>
 
-                    <input onChange={handlerChange} placeholder='Tu nombre' className='w-5/6 border border-white bg-transparent text-white' type="text" name="from_name" />
+                    <input onChange={handlerChange} autoComplete='false' placeholder='Tu nombre' className='w-5/6 border border-white bg-transparent text-white' type="text" name="from_name" />
                 </div>
                 <div className='w-full mt-8' >
 
-                    <input type="text" placeholder='Tu email' className='w-5/6 border border-white bg-transparent text-white' onChange={handlerChange} name='email_id' />
+                    <input type="text" autoComplete='false' placeholder='Tu email' className='w-5/6 border border-white bg-transparent text-white' onChange={handlerChange} name='email_id' />
                 </div>
                 <div className='w-full h-full mt-8'>
 
