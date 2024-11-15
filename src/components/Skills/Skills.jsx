@@ -24,7 +24,7 @@ function Skills() {
     return (
         <section className='flex flex-col items-center p-3' id="skills">
             <h1 className='text-white text-4xl mt-11 p-3'>Skills</h1>
-            <div className='flex flex-col md:flex-row mt-11'>
+            <div className='flex flex-col md:flex-row mt-11 items-center'>
                 <h2 className='text-white text-3xl'>¿Cuáles son las <span className='text-blue-500'>tecnologías</span> que conozco?</h2>
                 <div className='grid grid-cols-2 lg:grid-cols-3 mt-4'>
                     {skills.map((item) => <Skill image={item.image} key={item.name} name={item.name} />)}

@@ -1,0 +1,25 @@
+.footer{
+    position: relative;
+}
+.logo {
+    fill: white;
+    margin: 0.125rem;
+
+}
+
+.logo:hover {
+    fill: lightblue;
+    transform: scale(1.05);
+}
+
+
+/*min width 800 px*/
+@media(min-width: 50rem) {
+    .logos {
+        position: absolute;
+        right: 0.875rem;
+        bottom: 0.625rem;
+        display: block;
+    }
+
+}

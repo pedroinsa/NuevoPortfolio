@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <div className='background'>
+    <div className='background flex flex-col items-center h-full'>
       <Navbar />
       <Home />
       <About />

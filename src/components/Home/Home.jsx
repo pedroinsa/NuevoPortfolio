@@ -22,8 +22,8 @@ function Home() {
             </div>
 
             <div className='flex flex-row text-white text-4xl mt-20'>
-                <button className='m-3 bg-blue-500 p-3 rounded border border-white '><a href='https://www.linkedin.com/in/pedro-torcuato-insausti/'><TfiLinkedin /></a></button>
-                <button className='m-3 bg-blue-500 p-3 rounded border border-white'><a href='https://github.com/pedroinsa'><AiFillGithub /></a></button>
+                <button className='m-3 bg-blue-500 p-3 rounded-2xl border border-white '><a href='https://www.linkedin.com/in/pedro-torcuato-insausti/'><TfiLinkedin /></a></button>
+                <button className='m-3 bg-blue-500 p-3 rounded-2xl border border-white'><a href='https://github.com/pedroinsa'><AiFillGithub /></a></button>
 
             </div>
 

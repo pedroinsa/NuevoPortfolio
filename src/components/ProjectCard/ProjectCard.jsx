@@ -7,7 +7,7 @@ import { BsDisplay } from 'react-icons/bs'
 function ProjectCard({ name, image, demo, github, text, javascript, css, html, react, redux, sequelize, express, postgres,
     typescript, tailwind, bootstrap, angular }) {
     return (
-        <div className='flex flex-col items-center border-blue-500 border-2 pl-5 m-2 shadow-blue-500 shadow-xl hover:scale-110'>
+        <div className='flex flex-col items-center border-blue-500 border-2 pl-5 pb-3 m-2 shadow-blue-500 shadow-xl hover:scale-105'>
 
             <h2 className='text-blue-500 mr-6 text-2xl'>{name}</h2>
 

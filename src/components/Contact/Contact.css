@@ -1,0 +1,32 @@
+.button-form {
+    background-color: rgb(59, 130, 246);
+    width: 25%;
+}
+
+.button-form:disabled {
+    background-color: rgba(59, 130, 246, 0.2);
+    text-decoration: dashed;
+}
+input:focus {
+    outline: none;
+    border: 0.125rem solid rgb(59, 130, 246)
+}
+
+textarea:focus {
+    outline: none;
+    border: 0.125rem, solid rgb(59, 130, 246);
+}
+.field-group {
+    margin-bottom: 1.875rem;
+    height: 2.375rem;
+}
+.field-group-textarea{
+    margin-bottom: 1.875rem;
+    height: 6rem;
+}
+
+.button-fixed{
+    right: 50%;
+    bottom: 15%;
+  
+}
