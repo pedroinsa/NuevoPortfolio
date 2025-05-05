@@ -15,11 +15,12 @@ import express from "../../images/Skills/express.png"
 import mongoo from "../../images/Skills/mongoo.png"
 import next from "../../images/Skills/next.png"
 import angular from "../../images/Skills/angular.png"
+import python from  "../../images/Skills/python.png"
 function Skills() {
     const skills = [{ name: "Javascript", image: javascript }, { name: "Typescript", image: typescript }, { name: "NodeJS", image: node }, { name: "HTML", image: html }, { name: "CSS", image: css },
     { name: "React", image: react }, { name: "Express", image: express }, { name: "Redux", image: redux },
     { name: "Tailwind", image: tailwind }, { name: "Bootstrap", image: bootstrap }, { name: "NextJS", image: next }, { name: "Sequelize", image: sequelize }, { name: "PostgreSQL", image: postgres }, { name: "MongoDB", image: mongoo }
-        , { name: "Angular", image: angular }]
+        , { name: "Angular", image: angular }, {name: "Python", image: python}]
 
     return (
         <section className='flex flex-col items-center p-3' id="skills">
